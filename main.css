@@ -1,0 +1,54 @@
+header {
+    background-color: rgb(190, 62, 207);
+    color: #fff;
+    padding: 20px 0;
+    transition: background-color 0.3s;
+    border-bottom: 2px solid #4A148C;
+}
+
+header h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+header:hover {
+    background-color: #9B2F9A;
+}
+
+section {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s;
+}
+
+section:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+body {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+section h2 {
+    font-size: 1.5em;
+    color: #4A148C;
+}
+
+ul li:hover {
+    background-color: #fce4ec;
+    transition: background-color 0.3s;
+}
+
+section + section {
+    border-top: 2px solid #4A148C;
+}
